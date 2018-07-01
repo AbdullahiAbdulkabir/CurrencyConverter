@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function convert() {
 
     let optFrom = document.getElementById('from');
     let optTo = document.getElementById('to');
@@ -80,7 +80,7 @@ function convertCurrency() {
 
 if ('serviceWorker' in navigator) {
     navigator.serviceWorker
-        .register('/js/sw.js', { scope: '/js/' })
+        .register('sw.js', { scope: '/' })
         .then(registration => {
             console.log("Service worker Registered");
         })
