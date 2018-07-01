@@ -1,3 +1,2 @@
 # CurrencyConverter
-ALC #7daysofChallenge 
-Link: abdullahikabir.me/currencyconverter
+ALC Project using ES6
